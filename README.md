@@ -102,7 +102,7 @@ Eram 2 arquivos .sql, apenas uni os dois.
 
 ### Documentação Complementar e Visualização (Prints)
 
-#### Visualização Geral
+#### Visualização Geral Relatório Power Bi
 *   **Print:** [print_relatório_power_bi.png](./DOCS/print_relatório_power_bi.png)
 
 #### Criando uma instância do MySQL na Azure
