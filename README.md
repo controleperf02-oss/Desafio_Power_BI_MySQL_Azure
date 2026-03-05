@@ -77,3 +77,46 @@ O Atribuir (Append) é utilizado para um JOIN vertical (empilhamento). Ele servi
 Realizei o agrupamento na tabela Summary_Managers para contabilizar colaboradores por gestor, validando a integridade da cadeia de comando. A análise confirmou a conformidade com a regra de negócio, mantendo o número de funcionários sem gerente (0) abaixo do total de gestores (3). Esta etapa de Data Quality garante que não existam registros "órfãos", permitindo a criação de filtros hierárquicos precisos no modelo final.
 A Consulta Summary_Managers esta desabilitada.
 
+_____________________________________________________________
+_____________________________________________________________
+
+### Modificações realizadas: Transformação no Power Query
+Dentro do Power BI, todas as etapas de limpeza e modelagem (ETL) foram mantidas no editor do Power Query.
+
+_____________________________________________________________
+_____________________________________________________________
+
+### Conectividade
+Foi criada uma instância do MySQL na Azure: `meu-desafio-projeto-dio.mysql.database.azure.com`
+
+### Documentação Principal Complementar e Visualização
+
+*   **Descrição do Projeto (TXT):** [Meu_desafio_power_bi_sql_azure.txt](./DOCS/Meu_desafio_power_bi_sql_azure.txt)
+*   **Relatório Power BI:** [Meu_desafio_power_bi_sql_azure.pbix](./PBIX/Meu_desafio_power_bi_sql_azure.pbix)
+
+### Criação do Banco de dados com base disponível no github
+Eram 2 arquivos .sql, apenas uni os dois.
+*   **Arquivo .sql:** [script_bd_company_completo.sql](./SQL/script_bd_company_completo.sql)
+
+---
+
+### Documentação Complementar e Visualização (Prints)
+
+#### Visualização Geral
+*   **Print:** [print_relatório_power_bi.png](./DOCS/print_relatório_power_bi.png)
+
+#### Criando uma instância do MySQL na Azure
+*   **Print:** [criando_uma_instancia_do_mysql_na_azure.png](./DOCS/criando_uma_instancia_do_mysql_na_azure.png)
+*   **Print:** [visao_geral_da_instancia_do_mysql_na_azure.png](./DOCS/visao_geral_da_instancia_do_mysql_na_azure.png)
+
+#### Criando Regra no Firewall na Azure para Acesso ao banco de dados
+*   **Print:** [criando_regra_no_firewall_na_azure.png](./DOCS/criando_regra_no_firewall_na_azure.png)
+
+#### Conectando ao MySQL na Azure utilizando Workbench
+*   **Print:** [print_workbench_azure1.png](./DOCS/print_workbench_azure1.png)
+*   **Print:** [print_workbench_azure2.png](./DOCS/print_workbench_azure2.png)
+
+#### Integrando Power BI com MySQL na Azure
+*   **Print:** [print_powerbi_sql_azure1.png](./DOCS/print_powerbi_sql_azure1.png)
+*   **Print:** [print_powerbi_sql_azure2.png](./DOCS/print_powerbi_sql_azure2.png)
+
