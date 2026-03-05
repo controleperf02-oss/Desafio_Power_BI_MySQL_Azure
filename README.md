@@ -35,6 +35,8 @@
 15. **Agrupamento:** Agrupe os dados a fim de saber quantos colaboradores existem por gerente.
 16. **Otimização:** Elimine as colunas desnecessárias, que não serão usadas no relatório, de cada tabela.
 
+_____________________________________________________________
+_____________________________________________________________
 
 ### README: Diretriz 4
 Para resolver o problema da tabela employee da coluna ID manager que possui NULL. Conforme as diretrizes numero 4 do desafio. 
